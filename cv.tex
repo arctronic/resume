@@ -18,10 +18,10 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{awesome-cv}
+\documentclass[9pt, a4paper]{awesome-cv}
 
 % Configure page margins with geometry
-\geometry{left=1.0cm, top=.6cm, right=1.0cm, bottom=.6cm, footskip=0.0cm}
+\geometry{left=0.7cm, top=0.5cm, right=0.7cm, bottom=0.5cm, footskip=0.0cm}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -74,18 +74,17 @@
 \makecvfooter
   {}
   {}
-  {\thepage}
+  {}
 
 
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{cv/education.tex}
 \input{cv/experience.tex}
 \input{cv/skills.tex}
 \input{cv/projects.tex}
-\input{cv/certificates.tex}
+\input{cv/education.tex}
 
 
 %-------------------------------------------------------------------------------
